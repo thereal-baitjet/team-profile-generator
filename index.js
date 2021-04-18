@@ -118,8 +118,8 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
-                <li class="list-group-item"><a href="https://github.com/${gitHub}" target="_blank">${gitHub}</a><li>
+                <li class="list-group-item">Email: <a href="mailto:${email}">${email}</a></li>
+                <li class="list-group-item">GitHub: <a href="https://github.com/${gitHub}" target="_blank">${gitHub}</a><li>
             </ul>
             </div>
         </div>`;
@@ -130,20 +130,20 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Intern</h5>
             <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
+                <li class="list-group-item">Email: <a href="mailto:${email}">${email}</a></li>
                 <li class="list-group-item">School: ${school}</li>
             </ul>
             </div>
         </div>`;
         } else {
-            const officePhone = member.getOfficeNumber();
+            const officeNumber = member.getOfficeNumber();
             data = `<div class="col-6">
             <div class="card mx-auto mb-3" style="width: 18rem">
             <h5 class="card-header">${name}<br /><br />Manager</h5>
                 <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
-                <li class="list-group-item">Office Phone: ${officePhone}</li>
+                <li class="list-group-item">Email: <a href="mailto:${email}">${email}</a></li>
+                <li class="list-group-item">Office Number: ${officeNumber}</li>
                 </ul>
                 </div>
             </div>

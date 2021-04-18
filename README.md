@@ -10,7 +10,7 @@
   * [Credits](#credits)
   ### Installation:
   In order to install the necessary dependencies, open the console and run the following:
-  ```npm i inquirer```
+  ```npm i inquirer``` ```npm install --save-dev jest```
   ### Usage:
   write in the command node index.js to run the program
   ### License:
