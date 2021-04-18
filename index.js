@@ -169,7 +169,7 @@ function finishHtml() {
 </body>
 </html>`;
 
-    fs.appendFile("./team.html", html, function (err) {
+    fs.appendFile("./teammembers.html", html, function (err) {
         if (err) {
             console.log(err);
         };
