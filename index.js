@@ -118,8 +118,8 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
-                <li class="list-group-item">GitHub: ${gitHub}</li>
+                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
+                <li class="list-group-item"><a href="https://github.com/${gitHub}" target="_blank">${gitHub}</a><li>
             </ul>
             </div>
         </div>`;
@@ -130,7 +130,7 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Intern</h5>
             <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
                 <li class="list-group-item">School: ${school}</li>
             </ul>
             </div>
@@ -142,7 +142,7 @@ function addHtml(member) {
             <h5 class="card-header">${name}<br /><br />Manager</h5>
                 <ul class="list-group list-group-item">
                 <li class="list-group-item">ID: ${id}</li>
-                <li class="list-group-item">Email Address: ${email}</li>
+                <li class="list-group-item"><a href="mailto:${email}">${email}</a></li>
                 <li class="list-group-item">Office Phone: ${officePhone}</li>
                 </ul>
                 </div>
